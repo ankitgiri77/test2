@@ -1,0 +1,109 @@
+body{
+    background-image: url(img2.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    color: white;
+    font-family:'Times New Roman', Times, serif
+}
+.left{
+    display: inline-block;
+    /*border: 2px solid red; */
+    position: absolute;
+    left: 34px;
+    top: 20px;
+}
+.mid{
+   /* border: 2px solid green; */
+    display: block;
+    width: 45%;
+    margin: 20px auto;
+}
+.right{
+   /* border: 2px solid yellowgreen; */
+    position: absolute;
+    right: 34px;
+    top: 20px;
+    display: inline-block;
+}
+.navbar{
+    display: inline-block;
+}
+.navbar li{
+    display: inline-block;
+    font-size: 30px;
+}
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 30px 20px;
+}
+.navbar li a:hover{
+    color:cyan;
+    text-decoration:underline;
+    padding: 34px 23px;
+}
+.left img{
+    width: 40px;
+    filter: invert(100%);
+    margin-left: 8px;
+}
+.left div{
+    text-align: center;
+    line-height: 12px;
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+    margin-top: 4px;
+}
+.btn{
+    margin: 2px 12px;
+    background-color: black;
+    color: white;
+    padding: 2px 20px;
+  /*  border: 2px solid grey; */
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgb(122, 122, 122);
+}
+.container{
+  /*  border: 2px solid white; */
+    margin: 90px 20px;
+    padding: 10px 15px;
+    border-radius: 28px;
+    font-size: 30px;
+
+}
+.form{
+    margin: 55px;
+}
+.form input{
+  
+    border-radius: 20px;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    box-shadow: 5px 4px 5px cyan;
+    color: red;
+}
+.form input:hover{
+    background-color: rgb(23, 180, 194);
+}
+.btn2{
+    margin: 2px 152px;
+    background-color: black;
+    color: white;
+    padding: 2px 20px;
+   /* border: 2px solid grey; */
+    border-radius: 10px;
+    font-size: 25px;
+    cursor: pointer;
+
+}
+.btn2:hover{
+    background-color: rgb(10, 242, 49);
+    color: red;
+}
+   
